@@ -1,0 +1,97 @@
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+/* File upload styling */
+.file-upload {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #3498db;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.file-upload label {
+  cursor: pointer;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.file-upload input[type="file"] {
+  display: none; /* Hide default file input */
+}
+/* Add these new rules */
+.error-message {
+  margin: 20px 0;
+  padding: 15px;
+  background: #ffe3e6;
+  border: 1px solid #ff6b6b;
+  border-radius: 5px;
+  color: #c92a2a;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Update analysis popup buttons */
+.popup-buttons button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+/* Language Selector */
+/* Lesson selector styling */
+.lesson-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.lesson-selector {
+  flex-grow: 1;
+  min-width: 300px;
+}
+
+.lesson-selector label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.lesson-selector select {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  border: 2px solid #3498db;
+  border-radius: 6px;
+  background: white;
+}
+
+/* Error Message */
+.error-message {
+  margin: 20px 0;
+  padding: 15px;
+  background: #ffe3e6;
+  border: 1px solid #ff6b6b;
+  border-radius: 5px;
+  color: #c92a2a;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

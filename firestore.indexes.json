@@ -1,0 +1,12 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "lessons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "createdAt", "mode": "DESCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

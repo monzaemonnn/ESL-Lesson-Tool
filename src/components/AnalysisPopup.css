@@ -1,0 +1,78 @@
+/* In AnalysisPopup.css */
+.analysis-popup {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    padding: 35px 10px 10px; /* Added top padding for close button */
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .popup-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+    padding: 0; /* Ensure consistent button placement */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: #666;
+    line-height: 1;
+    padding: 0 5px;
+  }
+  
+  .popup-buttons button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 0; /* Remove horizontal margin */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+  .analysis-results-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #212529;
+    position: relative;
+  }
+  .analysis-results-box::before {
+    content: 'Analysis Result';
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 0.85em;
+  }
+  /* Language Notice */
+.language-notice {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-style: italic;
+  }

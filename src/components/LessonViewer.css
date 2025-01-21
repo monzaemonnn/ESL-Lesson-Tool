@@ -1,0 +1,29 @@
+.lesson-content {
+    user-select: text;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .lesson-content::selection {
+    background: transparent !important;
+    color: inherit !important;
+  }
+  
+  .lesson-content .highlight {
+    background-color: #ffeb3b !important;
+    display: inline;
+  }
+  
+  .lesson-content h2 {
+    color: #2c3e50;
+    margin-top: 25px;
+  }
+  
+  .lesson-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lesson-content li {
+    margin-bottom: 10px;
+  }
